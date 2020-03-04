@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--Scroll View Start-->
+
+       <ScrollView
+           android:id="@+id/sv_scrollview_id"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent">
+
+
+               <!--Text Views Start-->
+               <TextView
+                   android:id="@+id/tv_shaniz_id"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Shaniz Awando"
+                   android:textAlignment="center"
+                   android:textSize="36sp"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginBottom="20dp">
+
+
+               </TextView>
+
+               <TextView
+                   android:id="@+id/tv_basmahali_id"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Basmah Ali"
+                   android:textAlignment="center"
+                   android:textSize="36sp"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginBottom="20dp"
+                   android:layout_below="@id/tv_shaniz_id">
+
+               </TextView>
+
+               <TextView
+                   android:id="@+id/tv_collo_id"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Collins Odhiambo"
+                   android:textAlignment="center"
+                   android:textSize="36sp"
+                   android:layout_marginTop="5dp"
+                   android:layout_marginBottom="5dp"
+                   android:layout_below="@id/tv_basmahali_id">
+
+
+               </TextView>
+
+               <TextView
+                   android:id="@+id/tv_manu_id"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Emmanuel Otieno"
+                   android:textAlignment="center"
+                   android:textSize="36sp"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginBottom="20dp"
+                   android:layout_below="@id/tv_collo_id">
+
+               </TextView>
+               <TextView
+                   android:id="@+id/tv_winnie_id"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Winnie Atieno"
+                   android:textAlignment="center"
+                   android:textSize="36sp"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginBottom="20dp"
+                   android:layout_below="@id/tv_manu_id">
+
+               </TextView>
+               <TextView
+                   android:id="@+id/tv_purity_id"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Purity Kisili"
+                   android:textAlignment="center"
+                   android:textSize="36sp"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginBottom="20dp"
+                   android:layout_below="@id/tv_winnie_id">
+
+               </TextView>
+               <TextView
+                   android:id="@+id/tv_dorcas_id"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Dorcas Atieno"
+                   android:textAlignment="center"
+                   android:textSize="36sp"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginBottom="20dp"
+                   android:layout_below="@id/tv_purity_id">
+
+               </TextView>
+               <TextView
+                   android:id="@+id/tv_hussein_id"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Hussein Habib"
+                   android:textAlignment="center"
+                   android:textSize="36sp"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginBottom="20dp"
+                   android:layout_below="@id/tv_dorcas_id">
+
+               </TextView>
+               <TextView
+                   android:id="@+id/tv_owira_id"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Rodgers Owira"
+                   android:textAlignment="center"
+                   android:textSize="36sp"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginBottom="20dp"
+                   android:layout_below="@id/tv_hussein_id">
+
+               </TextView>
+               <TextView
+                   android:id="@+id/tv_phillip_id"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Phillip Clinton"
+                   android:textAlignment="center"
+                   android:textSize="36sp"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginBottom="20dp"
+                   android:layout_below="@id/tv_owira_id">
+
+               </TextView>
+               <TextView
+                   android:id="@+id/tv_charles_id"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Charlow"
+                   android:textAlignment="center"
+                   android:textSize="36sp"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginBottom="20dp"
+                   android:layout_below="@id/tv_phillip_id">
+
+               </TextView>
+               <!--Text Views End-->
+           </RelativeLayout>
+       </ScrollView>
+    <!--Scroll View End-->
+</RelativeLayout>
